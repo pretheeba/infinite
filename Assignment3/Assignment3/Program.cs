@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+                Console.Write("Enter the First Integer: ");
+                double firstnumber = double.Parse(Console.ReadLine());
+                Console.Write("Enter the Second Integer: ");
+                double secondnumber = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Choose an arithmetic operator");
+            Console.WriteLine("1.Addition");
+            Console.WriteLine("2.Subtraction");
+            Console.WriteLine("3.Multiplication");
+            Console.WriteLine("4.Division");
+
+            Console.WriteLine("Enter the number corresponding to the operation : ");
+            int choice = int.Parse(Console.ReadLine());
+
+            switch (choice)
+                {
+                case 1:
+                    double addition = firstnumber + secondnumber;
+                    Console.WriteLine($"Addition : {firstnumber} + {secondnumber} = {addition}");
+                    break;
+
+                case 2:
+                    double subraction = firstnumber - secondnumber;
+                    Console.WriteLine($"Subraction : {firstnumber} - {secondnumber} = {subraction}");
+                    break;
+
+                case 3:
+                    double multiplication = firstnumber * secondnumber;
+                    Console.WriteLine($"Multiplication : {firstnumber} * {secondnumber} = {multiplication}");
+                    break;
+
+                case 4:
+                    if (secondnumber != 0)
+                    {
+                        double division = firstnumber / secondnumber;
+                        Console.WriteLine($"Division : {firstnumber} / {secondnumber} = {division}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Dividing by Zero is not allowed");
+                    }
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice please enter a valid choice");
+                    break;
+
+                    Console.ReadLine();
+
+            }
+            Console.ReadLine();
+
+        }
+    }
+    }
+
+
