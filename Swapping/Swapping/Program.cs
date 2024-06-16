@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Swapping
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter 1st number : ");
+            int first = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter 2nd number : ");
+            int Second = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("First number before swap : " + first);
+            Console.WriteLine("Second number before swap : " + Second);
+
+
+            int temp = 0;
+
+            temp = first;
+            first = Second;
+            Second = temp;
+            Console.WriteLine("First number after swap with using temp : " + first);
+            Console.WriteLine("second number after swap with using temp : " + Second);
+
+            
+                Console.WriteLine("Enter 1st number : ");
+                 first = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter 2nd number : ");
+                 Second = int.Parse(Console.ReadLine());
+
+
+                first = first + Second;
+            Second = first - Second;
+            first = first - Second;
+
+
+            Console.WriteLine("First number before swap without using temp : " + first);
+            Console.WriteLine("seond number before swap without using temp : " + Second);
+
+
+            Console.ReadLine();
+
+
+
+        }
+    }
+}
