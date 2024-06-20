@@ -1,0 +1,7 @@
+C:\batch24\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\batch24\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\batch24\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\batch24\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\batch24\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\batch24\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\batch24\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
