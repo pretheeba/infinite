@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace questionno_3
+namespace questionno_4
 {
     class Program
     {
@@ -27,7 +27,7 @@ namespace questionno_3
                 total += num;
             }
 
-                double average = array.Average();
+            double average = array.Average();
 
             int min = array[0];
             int max = array[0];
