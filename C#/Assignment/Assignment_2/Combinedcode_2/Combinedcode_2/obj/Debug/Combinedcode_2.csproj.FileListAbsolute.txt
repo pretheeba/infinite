@@ -1,0 +1,7 @@
+C:\batch24\C#\Assignment\Assignment_2\Combinedcode_2\Combinedcode_2\bin\Debug\Combinedcode_2.exe.config
+C:\batch24\C#\Assignment\Assignment_2\Combinedcode_2\Combinedcode_2\bin\Debug\Combinedcode_2.exe
+C:\batch24\C#\Assignment\Assignment_2\Combinedcode_2\Combinedcode_2\bin\Debug\Combinedcode_2.pdb
+C:\batch24\C#\Assignment\Assignment_2\Combinedcode_2\Combinedcode_2\obj\Debug\Combinedcode_2.csproj.AssemblyReference.cache
+C:\batch24\C#\Assignment\Assignment_2\Combinedcode_2\Combinedcode_2\obj\Debug\Combinedcode_2.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Assignment\Assignment_2\Combinedcode_2\Combinedcode_2\obj\Debug\Combinedcode_2.exe
+C:\batch24\C#\Assignment\Assignment_2\Combinedcode_2\Combinedcode_2\obj\Debug\Combinedcode_2.pdb
