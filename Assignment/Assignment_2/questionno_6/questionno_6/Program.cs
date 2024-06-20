@@ -19,7 +19,7 @@ namespace questionno_6
                 
                 count++;
             }
-            Console.WriteLine(count);
+            Console.WriteLine("The length of the word is :"+count);
             Console.ReadLine();
         }
     }

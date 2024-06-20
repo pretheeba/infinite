@@ -1,0 +1,7 @@
+C:\batch24\Assignment\Assignment_2\questionno_8\questionno_8\bin\Debug\questionno_8.exe.config
+C:\batch24\Assignment\Assignment_2\questionno_8\questionno_8\bin\Debug\questionno_8.exe
+C:\batch24\Assignment\Assignment_2\questionno_8\questionno_8\bin\Debug\questionno_8.pdb
+C:\batch24\Assignment\Assignment_2\questionno_8\questionno_8\obj\Debug\questionno_8.csproj.AssemblyReference.cache
+C:\batch24\Assignment\Assignment_2\questionno_8\questionno_8\obj\Debug\questionno_8.csproj.CoreCompileInputs.cache
+C:\batch24\Assignment\Assignment_2\questionno_8\questionno_8\obj\Debug\questionno_8.exe
+C:\batch24\Assignment\Assignment_2\questionno_8\questionno_8\obj\Debug\questionno_8.pdb
