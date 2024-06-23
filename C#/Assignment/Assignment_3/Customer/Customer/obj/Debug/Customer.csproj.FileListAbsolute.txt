@@ -1,0 +1,7 @@
+C:\batch24\C#\Assignment\Assignment_3\Customer\Customer\bin\Debug\Customer.exe.config
+C:\batch24\C#\Assignment\Assignment_3\Customer\Customer\bin\Debug\Customer.exe
+C:\batch24\C#\Assignment\Assignment_3\Customer\Customer\bin\Debug\Customer.pdb
+C:\batch24\C#\Assignment\Assignment_3\Customer\Customer\obj\Debug\Customer.csproj.AssemblyReference.cache
+C:\batch24\C#\Assignment\Assignment_3\Customer\Customer\obj\Debug\Customer.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Assignment\Assignment_3\Customer\Customer\obj\Debug\Customer.exe
+C:\batch24\C#\Assignment\Assignment_3\Customer\Customer\obj\Debug\Customer.pdb

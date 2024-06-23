@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\equal\equal\bin\Debug\equal.exe.config
+C:\batch24\C#\Hands-On\equal\equal\bin\Debug\equal.exe
+C:\batch24\C#\Hands-On\equal\equal\bin\Debug\equal.pdb
+C:\batch24\C#\Hands-On\equal\equal\obj\Debug\equal.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\equal\equal\obj\Debug\equal.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\equal\equal\obj\Debug\equal.exe
+C:\batch24\C#\Hands-On\equal\equal\obj\Debug\equal.pdb

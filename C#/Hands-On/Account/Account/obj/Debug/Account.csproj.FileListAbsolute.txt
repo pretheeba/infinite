@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\Account\Account\bin\Debug\Account.exe.config
+C:\batch24\C#\Hands-On\Account\Account\bin\Debug\Account.exe
+C:\batch24\C#\Hands-On\Account\Account\bin\Debug\Account.pdb
+C:\batch24\C#\Hands-On\Account\Account\obj\Debug\Account.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\Account\Account\obj\Debug\Account.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\Account\Account\obj\Debug\Account.exe
+C:\batch24\C#\Hands-On\Account\Account\obj\Debug\Account.pdb

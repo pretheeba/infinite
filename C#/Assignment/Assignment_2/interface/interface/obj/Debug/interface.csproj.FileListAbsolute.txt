@@ -1,0 +1,7 @@
+C:\batch24\C#\Assignment\Assignment_2\interface\interface\obj\Debug\interface.csproj.AssemblyReference.cache
+C:\batch24\C#\Assignment\Assignment_2\interface\interface\obj\Debug\interface.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Assignment\Assignment_2\interface\interface\bin\Debug\@interface.exe.config
+C:\batch24\C#\Assignment\Assignment_2\interface\interface\bin\Debug\@interface.exe
+C:\batch24\C#\Assignment\Assignment_2\interface\interface\bin\Debug\@interface.pdb
+C:\batch24\C#\Assignment\Assignment_2\interface\interface\obj\Debug\@interface.exe
+C:\batch24\C#\Assignment\Assignment_2\interface\interface\obj\Debug\@interface.pdb

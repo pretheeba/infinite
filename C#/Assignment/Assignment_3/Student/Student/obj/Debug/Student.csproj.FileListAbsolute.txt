@@ -1,0 +1,7 @@
+C:\batch24\C#\Assignment\Assignment_3\Student\Student\bin\Debug\Student.exe.config
+C:\batch24\C#\Assignment\Assignment_3\Student\Student\bin\Debug\Student.exe
+C:\batch24\C#\Assignment\Assignment_3\Student\Student\bin\Debug\Student.pdb
+C:\batch24\C#\Assignment\Assignment_3\Student\Student\obj\Debug\Student.csproj.AssemblyReference.cache
+C:\batch24\C#\Assignment\Assignment_3\Student\Student\obj\Debug\Student.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Assignment\Assignment_3\Student\Student\obj\Debug\Student.exe
+C:\batch24\C#\Assignment\Assignment_3\Student\Student\obj\Debug\Student.pdb

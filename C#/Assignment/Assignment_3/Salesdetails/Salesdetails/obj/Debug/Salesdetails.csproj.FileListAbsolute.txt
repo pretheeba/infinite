@@ -1,0 +1,7 @@
+C:\batch24\C#\Assignment\Assignment_3\Salesdetails\Salesdetails\bin\Debug\Salesdetails.exe.config
+C:\batch24\C#\Assignment\Assignment_3\Salesdetails\Salesdetails\bin\Debug\Salesdetails.exe
+C:\batch24\C#\Assignment\Assignment_3\Salesdetails\Salesdetails\bin\Debug\Salesdetails.pdb
+C:\batch24\C#\Assignment\Assignment_3\Salesdetails\Salesdetails\obj\Debug\Salesdetails.csproj.AssemblyReference.cache
+C:\batch24\C#\Assignment\Assignment_3\Salesdetails\Salesdetails\obj\Debug\Salesdetails.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Assignment\Assignment_3\Salesdetails\Salesdetails\obj\Debug\Salesdetails.exe
+C:\batch24\C#\Assignment\Assignment_3\Salesdetails\Salesdetails\obj\Debug\Salesdetails.pdb
