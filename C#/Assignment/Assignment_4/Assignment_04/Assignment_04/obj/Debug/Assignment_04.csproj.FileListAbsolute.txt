@@ -1,0 +1,7 @@
+C:\batch24\C#\Assignment\Assignment_4\Assignment_04\Assignment_04\bin\Debug\Assignment_04.exe.config
+C:\batch24\C#\Assignment\Assignment_4\Assignment_04\Assignment_04\bin\Debug\Assignment_04.exe
+C:\batch24\C#\Assignment\Assignment_4\Assignment_04\Assignment_04\bin\Debug\Assignment_04.pdb
+C:\batch24\C#\Assignment\Assignment_4\Assignment_04\Assignment_04\obj\Debug\Assignment_04.csproj.AssemblyReference.cache
+C:\batch24\C#\Assignment\Assignment_4\Assignment_04\Assignment_04\obj\Debug\Assignment_04.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Assignment\Assignment_4\Assignment_04\Assignment_04\obj\Debug\Assignment_04.exe
+C:\batch24\C#\Assignment\Assignment_4\Assignment_04\Assignment_04\obj\Debug\Assignment_04.pdb

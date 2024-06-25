@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\CompareTo\CompareTo\bin\Debug\CompareTo.exe.config
+C:\batch24\C#\Hands-On\CompareTo\CompareTo\bin\Debug\CompareTo.exe
+C:\batch24\C#\Hands-On\CompareTo\CompareTo\bin\Debug\CompareTo.pdb
+C:\batch24\C#\Hands-On\CompareTo\CompareTo\obj\Debug\CompareTo.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\CompareTo\CompareTo\obj\Debug\CompareTo.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\CompareTo\CompareTo\obj\Debug\CompareTo.exe
+C:\batch24\C#\Hands-On\CompareTo\CompareTo\obj\Debug\CompareTo.pdb
