@@ -1,7 +1,0 @@
-C:\batch24\C#\Assignment\Assignment_5\Books\Books\bin\Debug\Books.exe.config
-C:\batch24\C#\Assignment\Assignment_5\Books\Books\bin\Debug\Books.exe
-C:\batch24\C#\Assignment\Assignment_5\Books\Books\bin\Debug\Books.pdb
-C:\batch24\C#\Assignment\Assignment_5\Books\Books\obj\Debug\Books.csproj.AssemblyReference.cache
-C:\batch24\C#\Assignment\Assignment_5\Books\Books\obj\Debug\Books.csproj.CoreCompileInputs.cache
-C:\batch24\C#\Assignment\Assignment_5\Books\Books\obj\Debug\Books.exe
-C:\batch24\C#\Assignment\Assignment_5\Books\Books\obj\Debug\Books.pdb
