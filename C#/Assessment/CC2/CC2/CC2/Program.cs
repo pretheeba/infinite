@@ -104,20 +104,9 @@ class Program
             Console.Write("Enter Product Name: ");
             product.ProductName = Console.ReadLine();
 
-            double price;
-            while (true)
-            {
-                Console.Write("Enter Price: ");
-                if (double.TryParse(Console.ReadLine(), out price))
-                {
-                    product.Price = price;
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Please enter a valid price.");
-                }
-            }
+
+            Console.Write("Enter Product price: ");
+            product.Price = int.Parse(Console.ReadLine());
 
             products.Add(product);
 
