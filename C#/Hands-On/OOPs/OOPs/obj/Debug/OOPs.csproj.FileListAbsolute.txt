@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\OOPs\OOPs\bin\Debug\OOPs.exe.config
+C:\batch24\C#\Hands-On\OOPs\OOPs\bin\Debug\OOPs.exe
+C:\batch24\C#\Hands-On\OOPs\OOPs\bin\Debug\OOPs.pdb
+C:\batch24\C#\Hands-On\OOPs\OOPs\obj\Debug\OOPs.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\OOPs\OOPs\obj\Debug\OOPs.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\OOPs\OOPs\obj\Debug\OOPs.exe
+C:\batch24\C#\Hands-On\OOPs\OOPs\obj\Debug\OOPs.pdb
