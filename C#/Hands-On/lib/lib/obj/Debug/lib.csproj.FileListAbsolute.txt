@@ -1,0 +1,2 @@
+C:\batch24\C#\Hands-On\lib\lib\obj\Debug\lib.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\lib\lib\obj\Debug\lib.csproj.CoreCompileInputs.cache

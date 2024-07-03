@@ -1,0 +1,6 @@
+C:\batch24\C#\Hands-On\MyFirstLib\MyFirstLib\bin\Debug\MyFirstLib.dll
+C:\batch24\C#\Hands-On\MyFirstLib\MyFirstLib\bin\Debug\MyFirstLib.pdb
+C:\batch24\C#\Hands-On\MyFirstLib\MyFirstLib\obj\Debug\MyFirstLib.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\MyFirstLib\MyFirstLib\obj\Debug\MyFirstLib.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\MyFirstLib\MyFirstLib\obj\Debug\MyFirstLib.dll
+C:\batch24\C#\Hands-On\MyFirstLib\MyFirstLib\obj\Debug\MyFirstLib.pdb

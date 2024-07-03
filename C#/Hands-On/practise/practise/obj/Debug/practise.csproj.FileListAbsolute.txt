@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\practise\practise\bin\Debug\practise.exe.config
+C:\batch24\C#\Hands-On\practise\practise\bin\Debug\practise.exe
+C:\batch24\C#\Hands-On\practise\practise\bin\Debug\practise.pdb
+C:\batch24\C#\Hands-On\practise\practise\obj\Debug\practise.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\practise\practise\obj\Debug\practise.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\practise\practise\obj\Debug\practise.exe
+C:\batch24\C#\Hands-On\practise\practise\obj\Debug\practise.pdb
