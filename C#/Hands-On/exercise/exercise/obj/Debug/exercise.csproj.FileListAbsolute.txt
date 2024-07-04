@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\exercise\exercise\bin\Debug\exercise.exe.config
+C:\batch24\C#\Hands-On\exercise\exercise\bin\Debug\exercise.exe
+C:\batch24\C#\Hands-On\exercise\exercise\bin\Debug\exercise.pdb
+C:\batch24\C#\Hands-On\exercise\exercise\obj\Debug\exercise.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\exercise\exercise\obj\Debug\exercise.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\exercise\exercise\obj\Debug\exercise.exe
+C:\batch24\C#\Hands-On\exercise\exercise\obj\Debug\exercise.pdb
