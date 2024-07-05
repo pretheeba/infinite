@@ -1,0 +1,6 @@
+C:\batch24\C#\Hands-On\RemotingServer\RemotingServer\bin\Debug\RemotingServer.dll
+C:\batch24\C#\Hands-On\RemotingServer\RemotingServer\bin\Debug\RemotingServer.pdb
+C:\batch24\C#\Hands-On\RemotingServer\RemotingServer\obj\Debug\RemotingServer.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\RemotingServer\RemotingServer\obj\Debug\RemotingServer.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\RemotingServer\RemotingServer\obj\Debug\RemotingServer.dll
+C:\batch24\C#\Hands-On\RemotingServer\RemotingServer\obj\Debug\RemotingServer.pdb

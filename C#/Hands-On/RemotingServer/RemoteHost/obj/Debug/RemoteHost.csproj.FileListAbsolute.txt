@@ -1,0 +1,10 @@
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\obj\Debug\RemoteHost.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\obj\Debug\RemoteHost.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\bin\Debug\RemoteHost.exe.config
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\bin\Debug\RemoteHost.exe
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\bin\Debug\RemoteHost.pdb
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\bin\Debug\RemotingServer.dll
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\bin\Debug\RemotingServer.pdb
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\obj\Debug\RemoteHost.csproj.CopyComplete
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\obj\Debug\RemoteHost.exe
+C:\batch24\C#\Hands-On\RemotingServer\RemoteHost\obj\Debug\RemoteHost.pdb

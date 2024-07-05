@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\basic_02\basic_02\bin\Debug\basic_02.exe.config
+C:\batch24\C#\Hands-On\basic_02\basic_02\bin\Debug\basic_02.exe
+C:\batch24\C#\Hands-On\basic_02\basic_02\bin\Debug\basic_02.pdb
+C:\batch24\C#\Hands-On\basic_02\basic_02\obj\Debug\basic_02.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\basic_02\basic_02\obj\Debug\basic_02.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\basic_02\basic_02\obj\Debug\basic_02.exe
+C:\batch24\C#\Hands-On\basic_02\basic_02\obj\Debug\basic_02.pdb
