@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\AbstractFactoryPattern\AbstractFactoryPattern\obj\Debug\AbstractFactoryPattern.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\AbstractFactoryPattern\AbstractFactoryPattern\obj\Debug\AbstractFactoryPattern.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\AbstractFactoryPattern\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.exe.config
+C:\batch24\C#\Hands-On\AbstractFactoryPattern\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.exe
+C:\batch24\C#\Hands-On\AbstractFactoryPattern\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.pdb
+C:\batch24\C#\Hands-On\AbstractFactoryPattern\AbstractFactoryPattern\obj\Debug\AbstractFactoryPattern.exe
+C:\batch24\C#\Hands-On\AbstractFactoryPattern\AbstractFactoryPattern\obj\Debug\AbstractFactoryPattern.pdb
