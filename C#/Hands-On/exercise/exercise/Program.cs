@@ -56,9 +56,7 @@ namespace exercise
                 case 9:
                     average();
                     break;
-                case 10:
-                    age();
-                    break;
+                
 
 
                 default:
@@ -159,13 +157,6 @@ namespace exercise
             Console.WriteLine((first + second + third + fourth) / 4);
             Console.ReadLine();
         }
-        public static void age()
-        {
-            int age; 
-            Console.Write("Enter your age ");
-            age = Convert.ToInt32(Console.ReadLine());
-            Console.Write("You look younger than {0} ", age);
-            Console.ReadLine();
-        }
+        
     }
 }
