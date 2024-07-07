@@ -1,0 +1,7 @@
+C:\batch24\C#\Assignment\Assignment_6\Assignment_06\Assignment_06\bin\Debug\Assignment_06.exe.config
+C:\batch24\C#\Assignment\Assignment_6\Assignment_06\Assignment_06\bin\Debug\Assignment_06.exe
+C:\batch24\C#\Assignment\Assignment_6\Assignment_06\Assignment_06\bin\Debug\Assignment_06.pdb
+C:\batch24\C#\Assignment\Assignment_6\Assignment_06\Assignment_06\obj\Debug\Assignment_06.csproj.AssemblyReference.cache
+C:\batch24\C#\Assignment\Assignment_6\Assignment_06\Assignment_06\obj\Debug\Assignment_06.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Assignment\Assignment_6\Assignment_06\Assignment_06\obj\Debug\Assignment_06.exe
+C:\batch24\C#\Assignment\Assignment_6\Assignment_06\Assignment_06\obj\Debug\Assignment_06.pdb
