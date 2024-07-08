@@ -1,0 +1,10 @@
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\bin\Debug\TravelConcessionApp.exe.config
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\bin\Debug\TravelConcessionApp.exe
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\bin\Debug\TravelConcessionApp.pdb
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\bin\Debug\TravelConcessionLibrary.dll
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\bin\Debug\TravelConcessionLibrary.pdb
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\obj\Debug\TravelConcessionApp.csproj.AssemblyReference.cache
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\obj\Debug\TravelConcessionApp.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\obj\Debug\TravelConcessionApp.csproj.CopyComplete
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\obj\Debug\TravelConcessionApp.exe
+C:\batch24\C#\Assignment\Assignment_6\TravelConcessionLibrary\TravelConcessionApp\obj\Debug\TravelConcessionApp.pdb
