@@ -78,6 +78,52 @@ namespace basic_02
                 case 19:
                     three();
                     break;
+                case 20:
+                    start();
+                    break;
+                case 21:
+                    First();
+                    break;
+                case 22:
+                    number();
+                    break;
+                case 23:
+                    hp();
+                    break;
+                case 24:
+                    large();
+                    break;
+                case 25:
+                    twenty();
+                    break;
+                case 26:
+                    upper();
+                    break;
+                case 27:
+                    even();
+                    break;
+                case 28:
+                    count();
+                    break;
+                case 29:
+                    find();
+                    break;
+                case 30:
+                    sum();
+                    break;
+                case 31:
+                    first();
+                    break;
+                case 32:
+                    reverse();
+                    break;
+                case 34:
+                    rotate();
+                    break;
+                case 33:
+                    largest();
+                    break;
+
             }
         }
         public static void age()
@@ -291,6 +337,201 @@ namespace basic_02
             Console.WriteLine("Enter number : ");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine((n % 3 == 0) || (n % 7 == 0));
+            Console.ReadLine();
+        }
+        public static void start()
+        {
+            Console.WriteLine("Enter a sentence : ");
+            String m = Console.ReadLine();
+            Console.WriteLine(m.StartsWith("Hello"));
+            Console.ReadLine();
+        }
+        public static void First()
+        {
+            Console.WriteLine("Enter first number :");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter second number :");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine( (num1 < 100 && num2 > 200) );
+            Console.ReadLine();
+        }
+        public static void number()
+        {
+            Console.WriteLine("Enter number :");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine((num >= -10 && num <= 10));
+            Console.ReadLine();
+        }
+        public static void hp()
+        {
+            Console.WriteLine("Enter a sentence : ");
+            String m = Console.ReadLine();
+            Console.WriteLine((m.Substring(1, 2).Equals("HP"))?m.Remove(1,2):m);
+            Console.ReadLine();
+        }
+        public static void large()
+        {
+            Console.WriteLine("Enter 1st value : ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter 2nd value : ");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter 3rd value : ");
+            int c = int.Parse(Console.ReadLine());
+            Console.WriteLine("Largest of three: " + Math.Max(a, Math.Max(b , c)));
+            Console.WriteLine("Lowest of three: " + Math.Min(a, Math.Min(b, c)));
+            Console.ReadLine();
+        }
+        public static void twenty()
+        {
+            Console.WriteLine("Enter 1st value : ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter 2nd value : ");
+            int b = int.Parse(Console.ReadLine());
+            int n = 20;
+            Console.WriteLine(a == b ? 0 : (a > b) ? a : b);
+            Console.ReadLine();
+        }
+        public static void upper()
+        {
+            Console.WriteLine("Enter String : ");
+            string a = Console.ReadLine();
+            int count = a.Count();
+            Console.WriteLine(count < 4 ? a.ToUpper() : a.ToLower());
+            Console.ReadLine();
+        }
+        public static void even()
+        {
+            Console.WriteLine("Enter string : ");
+            string str = Console.ReadLine();
+            String result = String.Empty;
+           
+            for (var i = 0; i < str.Length; i++)
+            {
+                if (i % 2 == 0)
+                    result += str[i];
+            }
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        public static void count()
+        {
+            int[] arr = new int[5];
+            for (int i = 0; i <= arr.Length-1;i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("Enter a value : ");
+            int n = int.Parse(Console.ReadLine());
+
+            int count = 0;
+
+            for(int i = 0;i<arr.Length;i++)
+            {
+                if(arr[i] == n)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine(count);
+            Console.ReadLine();
+        }
+        public static void find()
+        {
+            Console.WriteLine("Enter number of elements in an array : ");
+            int n = int.Parse(Console.ReadLine());
+            int[] arr = new int[n];
+            for (int i = 0; i <= arr.Length- 1; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Enter a number to find :");
+            int f = int.Parse(Console.ReadLine());
+
+            if(n>1)
+            {
+               if(arr.Length == f)
+                {
+                    Console.WriteLine("true");
+                }
+            }
+            Console.WriteLine("false");
+            Console.ReadLine();
+        }
+        public static void sum()
+        {
+            int[] arr = new int[5];
+            int sum = 0;
+            for (int i = 0; i <= arr.Length - 1; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+            for (int i = 0; i <= arr.Length - 1; i++)
+            {
+                sum+=arr[i];
+            }
+            Console.WriteLine(sum);
+            Console.ReadLine();
+        } 
+        public static void first()
+        {
+            int[] arr = new int[5];
+            for (int i = 0; i <= arr.Length - 1; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine((arr[0] == arr[arr.Length-1]));
+            Console.ReadLine();
+        }
+        public static void reverse()
+        {
+            int[] arr = new int[] { 1, 2, 3, 4 };
+            int first = 0;
+            int last = arr.Length - 1;
+            while(first < last)
+            {
+                int temp = arr[first];
+                arr[first] = arr[last];
+                arr[last]= temp;
+                first++;
+                last--;
+            }
+            
+            Console.WriteLine("Reversed array:");
+            foreach (int element in arr)
+            {
+                Console.WriteLine(element + " ");
+            }
+            Console.ReadLine();
+        }
+        public static void rotate()
+        {
+                int[] arr = new int[] { 1, 2, 3};
+                int temp = arr[0];
+                for(int i=0;i<arr.Length-1;i++)
+                {
+                arr[i] = arr[i+1];
+                }
+            arr[arr.Length - 1] = temp;
+                Console.WriteLine("Rotated array:");
+                foreach (int element in arr)
+                {
+                    Console.WriteLine(element + " ");
+                }
+                Console.ReadLine();
+            }
+        public static void largest()
+        {
+            int[] arr = new int[]{ 1, 2, 3 };
+            int max = arr[0];
+            for(int i=0;i<arr.Length;i++)
+            {
+                if(arr[i]>max)
+                {
+                    max = arr[i];
+                }
+            }
+            Console.WriteLine(max);
             Console.ReadLine();
         }
     }
