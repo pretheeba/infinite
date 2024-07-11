@@ -2,11 +2,11 @@ create database Assignment_01
 
 -- Creation of Clients table
 CREATE TABLE Clients (
-    Client_ID int PRIMARY KEY,
+    Client_ID numeric(4) PRIMARY KEY,
     Cname VARCHAR(40) NOT NULL,
     Address VARCHAR(30),
     Email VARCHAR(30) UNIQUE,
-    Phone varchar(15),
+    Phone numeric(10),
     Business VARCHAR(20) NOT NULL
 )
 -- Insert data into Clients table
@@ -22,7 +22,7 @@ VALUES
 
 	-- Creation of Departments table
 CREATE TABLE Departments (
-    Deptno int PRIMARY KEY,
+    Deptno numeric(2) PRIMARY KEY,
     Dname varchar(50) NOT NULL,
     Loc varchar(50)
 )
@@ -42,11 +42,11 @@ VALUES
 
  -- Creation of Employees table
 CREATE TABLE Employees (
-    Empno INT PRIMARY KEY,
+    Empno numeric(4) PRIMARY KEY,
     Ename VARCHAR(50) NOT NULL,
     Job VARCHAR(30),
-    Salary INT CHECK (Salary > 0),
-    Deptno INT REFERENCES Departments(Deptno)
+    Salary numeric(7) CHECK (Salary > 0),
+    Deptno numeric(2) REFERENCES Departments(Deptno)
 )
  
 
@@ -70,13 +70,13 @@ select * from Employees
  
  -- Creation of Projects table
 CREATE TABLE Projects (
-    Project_ID int PRIMARY KEY,
+    Project_ID numeric(3) PRIMARY KEY,
     Descr varchar(100) NOT NULL,
     Start_date DATE,
     Planned_End_Date DATE,
     Actual_End_date DATE,
-    Budget int CHECK (Budget > 0),  
-    Client_ID int REFERENCES Clients(Client_ID)     
+    Budget numeric(10) CHECK (Budget > 0),  
+    Client_ID numeric(4) REFERENCES Clients(Client_ID)     
 )
 
 -- Inserting data into Projects table
@@ -93,8 +93,8 @@ VALUES
  
  --  creation of EmpProjectTasks table
 CREATE TABLE EmpProjectTasks (
-    Project_ID int,
-    Empno int,
+    Project_ID numeric(3),
+    Empno numeric(4),
     Start_Date DATE,
     End_Date DATE,
     Task varchar(50) NOT NULL,
