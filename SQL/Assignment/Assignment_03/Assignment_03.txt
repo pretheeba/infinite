@@ -1,0 +1,54 @@
+--1. Retrieve a list of MANAGERS. 
+select distinct e1.empno as Manager_id,e1.ename as manager_name from employee e1 join employee e2 on e2.mrg_id=e1.empno;
+
+--2. Find out the names and salaries of all employees earning more than 1000 per month. 
+select ename as Name, salary as Monthly_sal from employee where salary>1000 order by salary;
+
+--3. Display the names and salaries of all employees except JAMES. 
+select ename as Emp_Name,salary from employee where ename not like 'JAMES';
+
+--4. Find out the details of employees whose names begin with ‘S’. 
+select * from employee where ename like 'S%';
+
+--5. Find out the names of all employees that have ‘A’ anywhere in their name. 
+select * from employee where ename like '%A%';
+
+--6. Find out the names of all employees that have ‘L’ as their third character in their name. 
+select ename from employee where ename like '__L%';
+
+--7. Compute daily salary of JONES. 
+select ename, round(salary/30,2) as daily_salary from employee where ename = 'JONES';
+
+--8. Calculate the total monthly salary of all employees. 
+select sum(salary) as Total_employees_salary from employee;
+
+--9. Print the average annual salary .
+select round(avg(salary*12),2) as average_annual_salary from employee;
+
+--10. Select the name, job, salary, department number of all employees except SALESMAN from department number 30. 
+select ename,job,salary,deptno from employee where (job <> 'SALESMAN' and deptno = 30);
+
+--11. List unique departments of the EMP table. 
+select distinct dname ,employee.deptno from department join employee on department.deptno=employee.deptno;
+
+--12. List the name and salary of employees who earn more than 1500 and are in department 10 or 30. Label the columns Employee and Monthly Salary respectively.
+select ename as Employee,salary as [Monthly salary] from employee where salary> 1500 and ( deptno in(10,30));
+
+--13. Display the name, job, and salary of all the employees whose job is MANAGER or ANALYST and their salary is not equal to 1000, 3000, or 5000.
+select ename,job,salary from employee where job in ('MANAGER','ANALYST') and salary not in(1000,3000,5000);
+
+--14. Display the name, salary and commission for all employees whose commission amount is greater than their salary increased by 10%. 
+select ename,salary , commission from employee where commission>(salary);
+
+--15. Display the name of all employees who have two Ls in their name and are in department 30 or their manager is 7782. 
+select ename as EmpName from employee where ename like '%L%L%' and (deptno=30 or mrg_id=7782);
+
+--16. Display the names of employees with experience of over 30 years and under 40 yrs.Count the total number of employees. 
+select ename as E_NAME ,(year(getdate())-year(hiredate)) as Experience  from employee
+where  (year(getdate())-year(hiredate))>30  and (year(getdate())-year(hiredate))<40
+
+--17. Retrieve the names of departments in ascending order and their employees in descending order.
+select dname,ename from employee join department on department.deptno=employee.deptno order by dname,ename desc;
+
+--18. Find out experience of MILLER.
+select ename as [NAME] ,year(getdate())-year(hiredate) as Experience from employee where ename like 'MILLER';

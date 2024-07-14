@@ -1,0 +1,7 @@
+C:\batch24\C#\Hands-On\operator_overloading\operator_overloading\bin\Debug\operator_overloading.exe.config
+C:\batch24\C#\Hands-On\operator_overloading\operator_overloading\bin\Debug\operator_overloading.exe
+C:\batch24\C#\Hands-On\operator_overloading\operator_overloading\bin\Debug\operator_overloading.pdb
+C:\batch24\C#\Hands-On\operator_overloading\operator_overloading\obj\Debug\operator_overloading.csproj.AssemblyReference.cache
+C:\batch24\C#\Hands-On\operator_overloading\operator_overloading\obj\Debug\operator_overloading.csproj.CoreCompileInputs.cache
+C:\batch24\C#\Hands-On\operator_overloading\operator_overloading\obj\Debug\operator_overloading.exe
+C:\batch24\C#\Hands-On\operator_overloading\operator_overloading\obj\Debug\operator_overloading.pdb
