@@ -41,3 +41,39 @@ update dept set Loc = 'pune' where dept_no = 6
 alter table dept 
 add constraint con_uniq_loc unique(loc)
 
+alter table employees
+add constraint check_salary check(salary >= 6000)
+
+CREATE FUNCTION dbo.fnmale (@empname VARCHAR(50))
+RETURNS TABLE
+AS
+RETURN (
+    SELECT gender
+    FROM tblemployee
+    WHERE empname = @empname
+      AND gender = 'M'  -- Ensure the gender is male
+);
+GO
+--ex 3. Write a function to add 2 numbers and return the value
+ 
+  create or alter function addnum(@d1 float, @d2 float)
+  returns float
+  as
+  begin
+  return round(@d1+@d2,2)
+  end
+  select dbo.addnum(2,7) as [SUM];
+ 
+  --ex 4. write a function to calculate the area of rectangle
+ 
+ 
+create or alter function findArea(@l float,@b float)
+returns float
+as
+begin
+	return @l*@b
+end
+ 
+select dbo.findArea(5,2) as [Area]
+
+ 
