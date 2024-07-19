@@ -1,0 +1,7 @@
+C:\batch24\ADO\Region_ADO\Region_ADO\bin\Debug\Region_ADO.exe.config
+C:\batch24\ADO\Region_ADO\Region_ADO\bin\Debug\Region_ADO.exe
+C:\batch24\ADO\Region_ADO\Region_ADO\bin\Debug\Region_ADO.pdb
+C:\batch24\ADO\Region_ADO\Region_ADO\obj\Debug\Region_ADO.csproj.AssemblyReference.cache
+C:\batch24\ADO\Region_ADO\Region_ADO\obj\Debug\Region_ADO.csproj.CoreCompileInputs.cache
+C:\batch24\ADO\Region_ADO\Region_ADO\obj\Debug\Region_ADO.exe
+C:\batch24\ADO\Region_ADO\Region_ADO\obj\Debug\Region_ADO.pdb

@@ -327,7 +327,7 @@ namespace basic_02
             }
             else
             {
-                string lastFourChars = last.Substring(last.Length - 4); 
+                string lastFourChars = last.Substring(last.Length - 4);
                 Console.WriteLine(string.Concat(lastFourChars, lastFourChars, lastFourChars, lastFourChars));
                 Console.ReadLine();
             }
@@ -352,7 +352,7 @@ namespace basic_02
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter second number :");
             int num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine( (num1 < 100 && num2 > 200) );
+            Console.WriteLine((num1 < 100 && num2 > 200));
             Console.ReadLine();
         }
         public static void number()
@@ -366,7 +366,7 @@ namespace basic_02
         {
             Console.WriteLine("Enter a sentence : ");
             String m = Console.ReadLine();
-            Console.WriteLine((m.Substring(1, 2).Equals("HP"))?m.Remove(1,2):m);
+            Console.WriteLine((m.Substring(1, 2).Equals("HP")) ? m.Remove(1, 2) : m);
             Console.ReadLine();
         }
         public static void large()
@@ -377,7 +377,7 @@ namespace basic_02
             int b = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter 3rd value : ");
             int c = int.Parse(Console.ReadLine());
-            Console.WriteLine("Largest of three: " + Math.Max(a, Math.Max(b , c)));
+            Console.WriteLine("Largest of three: " + Math.Max(a, Math.Max(b, c)));
             Console.WriteLine("Lowest of three: " + Math.Min(a, Math.Min(b, c)));
             Console.ReadLine();
         }
@@ -404,7 +404,7 @@ namespace basic_02
             Console.WriteLine("Enter string : ");
             string str = Console.ReadLine();
             String result = String.Empty;
-           
+
             for (var i = 0; i < str.Length; i++)
             {
                 if (i % 2 == 0)
@@ -416,7 +416,7 @@ namespace basic_02
         public static void count()
         {
             int[] arr = new int[5];
-            for (int i = 0; i <= arr.Length-1;i++)
+            for (int i = 0; i <= arr.Length - 1; i++)
             {
                 arr[i] = int.Parse(Console.ReadLine());
             }
@@ -426,9 +426,9 @@ namespace basic_02
 
             int count = 0;
 
-            for(int i = 0;i<arr.Length;i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                if(arr[i] == n)
+                if (arr[i] == n)
                 {
                     count++;
                 }
@@ -441,16 +441,16 @@ namespace basic_02
             Console.WriteLine("Enter number of elements in an array : ");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
-            for (int i = 0; i <= arr.Length- 1; i++)
+            for (int i = 0; i <= arr.Length - 1; i++)
             {
                 arr[i] = int.Parse(Console.ReadLine());
             }
             Console.WriteLine("Enter a number to find :");
             int f = int.Parse(Console.ReadLine());
 
-            if(n>1)
+            if (n > 1)
             {
-               if(arr.Length == f)
+                if (arr.Length == f)
                 {
                     Console.WriteLine("true");
                 }
@@ -468,11 +468,11 @@ namespace basic_02
             }
             for (int i = 0; i <= arr.Length - 1; i++)
             {
-                sum+=arr[i];
+                sum += arr[i];
             }
             Console.WriteLine(sum);
             Console.ReadLine();
-        } 
+        }
         public static void first()
         {
             int[] arr = new int[5];
@@ -480,7 +480,7 @@ namespace basic_02
             {
                 arr[i] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine((arr[0] == arr[arr.Length-1]));
+            Console.WriteLine((arr[0] == arr[arr.Length - 1]));
             Console.ReadLine();
         }
         public static void reverse()
@@ -488,15 +488,15 @@ namespace basic_02
             int[] arr = new int[] { 1, 2, 3, 4 };
             int first = 0;
             int last = arr.Length - 1;
-            while(first < last)
+            while (first < last)
             {
                 int temp = arr[first];
                 arr[first] = arr[last];
-                arr[last]= temp;
+                arr[last] = temp;
                 first++;
                 last--;
             }
-            
+
             Console.WriteLine("Reversed array:");
             foreach (int element in arr)
             {
@@ -506,27 +506,27 @@ namespace basic_02
         }
         public static void rotate()
         {
-                int[] arr = new int[] { 1, 2, 3};
-                int temp = arr[0];
-                for(int i=0;i<arr.Length-1;i++)
-                {
-                arr[i] = arr[i+1];
-                }
-            arr[arr.Length - 1] = temp;
-                Console.WriteLine("Rotated array:");
-                foreach (int element in arr)
-                {
-                    Console.WriteLine(element + " ");
-                }
-                Console.ReadLine();
+            int[] arr = new int[] { 1, 2, 3 };
+            int temp = arr[0];
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                arr[i] = arr[i + 1];
             }
+            arr[arr.Length - 1] = temp;
+            Console.WriteLine("Rotated array:");
+            foreach (int element in arr)
+            {
+                Console.WriteLine(element + " ");
+            }
+            Console.ReadLine();
+        }
         public static void largest()
         {
-            int[] arr = new int[]{ 1, 2, 3 };
+            int[] arr = new int[] { 1, 2, 3 };
             int max = arr[0];
-            for(int i=0;i<arr.Length;i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                if(arr[i]>max)
+                if (arr[i] > max)
                 {
                     max = arr[i];
                 }
@@ -535,5 +535,4 @@ namespace basic_02
             Console.ReadLine();
         }
     }
-}
-    
+}    

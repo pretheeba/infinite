@@ -188,3 +188,31 @@ HAVING COUNT(*) > 2;
 
 
 
+CREATE TABLE Employee (
+    empno INT PRIMARY KEY,
+    ename VARCHAR(50),
+    sal DECIMAL(10, 2),
+    doj DATE
+);
+select * from Employee
+
+BEGIN TRANSACTION;
+--a. First insert 3 rows 
+
+INSERT INTO Employee (empno, ename, sal, doj)
+VALUES (01, 'Smith', 5000.00, '2020-01-15'),
+       (02, 'Allen', 6000.00, '2019-08-20'),
+       (03, 'Ward', 5500.00, '2021-03-10');
+	   select * from employee
+
+	   UPDATE Employee
+SET sal = sal * 1.15
+WHERE empno = 2;
+--c. Delete first row. After completing above all actions how to recall the deleted row without losing increment of second row.
+
+DELETE FROM Employee
+WHERE empno = 1;
+COMMIT;
+SELECT *
+FROM Employee
+WHERE empno = 1;

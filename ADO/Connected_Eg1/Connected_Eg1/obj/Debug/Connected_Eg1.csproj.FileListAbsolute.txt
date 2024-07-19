@@ -1,0 +1,7 @@
+C:\batch24\ADO\Connected_Eg1\Connected_Eg1\bin\Debug\Connected_Eg1.exe.config
+C:\batch24\ADO\Connected_Eg1\Connected_Eg1\bin\Debug\Connected_Eg1.exe
+C:\batch24\ADO\Connected_Eg1\Connected_Eg1\bin\Debug\Connected_Eg1.pdb
+C:\batch24\ADO\Connected_Eg1\Connected_Eg1\obj\Debug\Connected_Eg1.csproj.AssemblyReference.cache
+C:\batch24\ADO\Connected_Eg1\Connected_Eg1\obj\Debug\Connected_Eg1.csproj.CoreCompileInputs.cache
+C:\batch24\ADO\Connected_Eg1\Connected_Eg1\obj\Debug\Connected_Eg1.exe
+C:\batch24\ADO\Connected_Eg1\Connected_Eg1\obj\Debug\Connected_Eg1.pdb
