@@ -1,0 +1,34 @@
+--1. Write a T-SQL Program to find the factorial of a given number.
+create or alter proc factorial
+@n int
+ 
+as
+begin
+declare @i int=1
+declare @x int=1
+  while @i<=@n 
+   begin
+      set @x=@x*@i
+      set @i=@i+1
+   end
+end
+print 'factorial of given number is:' + cast(@x as varchar(10))
+ 
+factorial 4
+ 
+ 
+ 
+--2.Create a stored procedure to generate multiplication table that accepts 
+--a number and generates up to a given number. 
+  create or alter proc multiplication
+  @n1 int, @n2 int
+  as 
+  begin
+   declare @i int=1
+   while @i<=@n2
+	 begin
+	   print cast(@n1 as varchar(10))+' * '+ cast(@i as varchar(10))+'='+cast(@n1*@i as varchar(10))
+	   set @i=@i+1
+	 end
+  end
+  multiplication 5,5

@@ -1,0 +1,7 @@
+C:\batch24\ADO\Disconnected_Eg1\Disconnected_Eg1\obj\Debug\Disconnected_Eg1.csproj.AssemblyReference.cache
+C:\batch24\ADO\Disconnected_Eg1\Disconnected_Eg1\obj\Debug\Disconnected_Eg1.csproj.CoreCompileInputs.cache
+C:\batch24\ADO\Disconnected_Eg1\Disconnected_Eg1\bin\Debug\Disconnected_Eg1.exe.config
+C:\batch24\ADO\Disconnected_Eg1\Disconnected_Eg1\bin\Debug\Disconnected_Eg1.exe
+C:\batch24\ADO\Disconnected_Eg1\Disconnected_Eg1\bin\Debug\Disconnected_Eg1.pdb
+C:\batch24\ADO\Disconnected_Eg1\Disconnected_Eg1\obj\Debug\Disconnected_Eg1.exe
+C:\batch24\ADO\Disconnected_Eg1\Disconnected_Eg1\obj\Debug\Disconnected_Eg1.pdb
