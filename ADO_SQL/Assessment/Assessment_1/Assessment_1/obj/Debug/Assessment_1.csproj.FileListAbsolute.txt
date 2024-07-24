@@ -1,0 +1,7 @@
+C:\batch24\ADO_SQL\Assessment\Assessment_1\Assessment_1\bin\Debug\Assessment_1.exe.config
+C:\batch24\ADO_SQL\Assessment\Assessment_1\Assessment_1\bin\Debug\Assessment_1.exe
+C:\batch24\ADO_SQL\Assessment\Assessment_1\Assessment_1\bin\Debug\Assessment_1.pdb
+C:\batch24\ADO_SQL\Assessment\Assessment_1\Assessment_1\obj\Debug\Assessment_1.csproj.AssemblyReference.cache
+C:\batch24\ADO_SQL\Assessment\Assessment_1\Assessment_1\obj\Debug\Assessment_1.csproj.CoreCompileInputs.cache
+C:\batch24\ADO_SQL\Assessment\Assessment_1\Assessment_1\obj\Debug\Assessment_1.exe
+C:\batch24\ADO_SQL\Assessment\Assessment_1\Assessment_1\obj\Debug\Assessment_1.pdb
