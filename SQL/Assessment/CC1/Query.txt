@@ -8,8 +8,8 @@ Create Table Employee (
 			
      Begin transaction
 	 --a. First insert 3 rows
-         Insert into Employee Values (101, 'john', 30000, '2022-04-09'), (102, 'jeny', 50000, '2021-06-06'),
-       (103, 'jones', 20000, '2020-08-03')
+         Insert into Employee Values (101, 'Smith', 30000, '2022-04-09'), (102, 'Allen', 50000, '2021-06-06'),
+       (103, 'Ward', 20000, '2020-08-03')
 
         -- b. Update the second row sal with 15% increment
          Update Employee Set sal = Sal * 1.15
