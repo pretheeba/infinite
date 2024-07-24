@@ -1,0 +1,7 @@
+C:\batch24\ADO\LINQ\LINQ\bin\Debug\LINQ.exe.config
+C:\batch24\ADO\LINQ\LINQ\bin\Debug\LINQ.exe
+C:\batch24\ADO\LINQ\LINQ\bin\Debug\LINQ.pdb
+C:\batch24\ADO\LINQ\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\batch24\ADO\LINQ\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\batch24\ADO\LINQ\LINQ\obj\Debug\LINQ.exe
+C:\batch24\ADO\LINQ\LINQ\obj\Debug\LINQ.pdb

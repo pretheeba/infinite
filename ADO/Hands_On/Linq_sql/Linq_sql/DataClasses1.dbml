@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="infiniteDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ICS-LT-98M46D3;Initial Catalog=infiniteDB;User ID=sa;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="Linq_sql.Properties.Settings" SettingsPropertyName="infiniteDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.dept" Member="depts">
+    <Type Name="dept">
+      <Column Name="dept_no" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="dept_name" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="budget" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Loc" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="dept_employee" Member="employees" ThisKey="dept_no" OtherKey="dept_no" Type="employee" />
+      <Association Name="dept_employee1" Member="employees1" ThisKey="dept_no" OtherKey="dept_no" Type="employee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.employees" Member="employees">
+    <Type Name="employee">
+      <Column Name="empid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="empname" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="gender" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="salary" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dept_no" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="phonenumber" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Association Name="dept_employee" Member="dept" ThisKey="dept_no" OtherKey="dept_no" Type="dept" IsForeignKey="true" />
+      <Association Name="dept_employee1" Member="dept1" ThisKey="dept_no" OtherKey="dept_no" Type="dept" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

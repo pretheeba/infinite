@@ -1,0 +1,2 @@
+C:\batch24\ADO\Linq_sql\Linq_sql\obj\Debug\Linq_sql.csproj.AssemblyReference.cache
+C:\batch24\ADO\Linq_sql\Linq_sql\obj\Debug\Linq_sql.csproj.CoreCompileInputs.cache
