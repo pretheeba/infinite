@@ -32,3 +32,35 @@ factorial 4
 	 end
   end
   multiplication 5,5
+
+--3.  Create a trigger to restrict data manipulation on EMP table during General holidays. Display the error message like “Due to Independence day you cannot manipulate data” or "Due To Diwali", you cannot manupulate" etc 
+
+use infiniteDB
+
+create table Holidays
+(holiday_date Date Primary Key, holiday_name varchar(max))
+
+ insert into Holidays values
+('2024-07-20','NewYear'),
+('2024-07-22','Diwali'),
+
+
+create or alter trigger Restrictdataholiday
+on tblemployees
+for insert,update,delete
+as
+begin
+  	declare @holiday int
+    select @holiday = count(*) from Holidays where holiday_date = cast(getdate() as date)
+    if @holiday>0
+    begin
+		declare @h_name varchar(100);
+		select @h_name = holiday_name from Holidays where holiday_date = cast(getdate() as date)
+		select 'You cannnot modify data as an account of ' + cast(@h_name as varchar(200))
+	end
+end
+
+select * from tblemployees
+
+ update tblemployees
+set salary=10000 where empid=103
