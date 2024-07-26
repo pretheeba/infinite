@@ -1,0 +1,2 @@
+C:\batch24\ADO\Hands_On\Database_First\Database_First\obj\Debug\Database_First.csproj.AssemblyReference.cache
+C:\batch24\ADO\Hands_On\Database_First\Database_First\obj\Debug\Database_First.csproj.CoreCompileInputs.cache

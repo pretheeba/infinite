@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="infiniteDBModelStoreContainer" CdmEntityContainer="infiniteDBEntities">
+    <EntitySetMapping Name="clients">
+      <EntityTypeMapping TypeName="infiniteDBModel.client">
+        <MappingFragment StoreEntitySet="client">
+          <ScalarProperty Name="clientNo" ColumnName="clientNo" />
+          <ScalarProperty Name="cName" ColumnName="cName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="depts">
+      <EntityTypeMapping TypeName="infiniteDBModel.dept">
+        <MappingFragment StoreEntitySet="dept">
+          <ScalarProperty Name="dept_no" ColumnName="dept_no" />
+          <ScalarProperty Name="dept_name" ColumnName="dept_name" />
+          <ScalarProperty Name="budget" ColumnName="budget" />
+          <ScalarProperty Name="Loc" ColumnName="Loc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="infiniteDBModel.employee">
+        <MappingFragment StoreEntitySet="employees">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="empname" ColumnName="empname" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="dept_no" ColumnName="dept_no" />
+          <ScalarProperty Name="phonenumber" ColumnName="phonenumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

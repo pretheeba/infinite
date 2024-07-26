@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="infiniteDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="clientNo" />
+    </Key>
+    <Property Name="clientNo" Type="int" Nullable="false" />
+    <Property Name="cName" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'infiniteDB.dbo.department' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="department">
+          <Property Name="department" Type="int" />
+          <Property Name="salary" Type="int" />
+        </EntityType>-->
+  <EntityType Name="dept">
+    <Key>
+      <PropertyRef Name="dept_no" />
+    </Key>
+    <Property Name="dept_no" Type="int" Nullable="false" />
+    <Property Name="dept_name" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="budget" Type="int" />
+    <Property Name="Loc" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="employees">
+    <Key>
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="empid" Type="int" Nullable="false" />
+    <Property Name="empname" Type="varchar" MaxLength="15" />
+    <Property Name="gender" Type="varchar" MaxLength="10" />
+    <Property Name="salary" Type="float" />
+    <Property Name="dept_no" Type="int" />
+    <Property Name="phonenumber" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <Association Name="FK__employees__dept___38996AB5">
+    <End Role="dept" Type="Self.dept" Multiplicity="0..1" />
+    <End Role="employees" Type="Self.employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dept">
+        <PropertyRef Name="dept_no" />
+      </Principal>
+      <Dependent Role="employees">
+        <PropertyRef Name="dept_no" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__employees__dept___49C3F6B7">
+    <End Role="dept" Type="Self.dept" Multiplicity="0..1" />
+    <End Role="employees" Type="Self.employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dept">
+        <PropertyRef Name="dept_no" />
+      </Principal>
+      <Dependent Role="employees">
+        <PropertyRef Name="dept_no" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="infiniteDBModelStoreContainer">
+    <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dept" EntityType="Self.dept" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employees" EntityType="Self.employees" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__employees__dept___38996AB5" Association="Self.FK__employees__dept___38996AB5">
+      <End Role="dept" EntitySet="dept" />
+      <End Role="employees" EntitySet="employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__employees__dept___49C3F6B7" Association="Self.FK__employees__dept___49C3F6B7">
+      <End Role="dept" EntitySet="dept" />
+      <End Role="employees" EntitySet="employees" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -12,7 +12,7 @@ namespace Connected_Eg1
 
         static void Main(string[] args)
         {
-           // InsertEmployee("John Doe", 30000.00m, 'F');
+           InsertEmployee("John Doe", 30000.00m, 'F');
             InsertEmployee("Jane Smith", 28000.00m, 'P');
             InsertEmployee("Michael Johnson", 32000.00m, 'F');
 
@@ -20,7 +20,7 @@ namespace Connected_Eg1
 
             Console.ReadLine();
         }
-
+       
         private static SqlConnection GetConnection()
         {
             string connectionString = "data source=ICS-LT-98M46D3;initial catalog=Employeemanagement;user id=sa;password=pretheeba;";

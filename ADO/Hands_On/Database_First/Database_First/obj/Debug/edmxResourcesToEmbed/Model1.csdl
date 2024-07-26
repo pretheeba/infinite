@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="infiniteDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="clientNo" />
+    </Key>
+    <Property Name="clientNo" Type="Int32" Nullable="false" />
+    <Property Name="cName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="dept">
+    <Key>
+      <PropertyRef Name="dept_no" />
+    </Key>
+    <Property Name="dept_no" Type="Int32" Nullable="false" />
+    <Property Name="dept_name" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="budget" Type="Int32" />
+    <Property Name="Loc" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="employees" Relationship="Self.FK__employees__dept___38996AB5" FromRole="dept" ToRole="employees" />
+    <NavigationProperty Name="employees1" Relationship="Self.FK__employees__dept___49C3F6B7" FromRole="dept" ToRole="employees" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="empid" Type="Int32" Nullable="false" />
+    <Property Name="empname" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="salary" Type="Double" />
+    <Property Name="dept_no" Type="Int32" />
+    <Property Name="phonenumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="dept" Relationship="Self.FK__employees__dept___38996AB5" FromRole="employees" ToRole="dept" />
+    <NavigationProperty Name="dept1" Relationship="Self.FK__employees__dept___49C3F6B7" FromRole="employees" ToRole="dept" />
+  </EntityType>
+  <Association Name="FK__employees__dept___38996AB5">
+    <End Role="dept" Type="Self.dept" Multiplicity="0..1" />
+    <End Role="employees" Type="Self.employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dept">
+        <PropertyRef Name="dept_no" />
+      </Principal>
+      <Dependent Role="employees">
+        <PropertyRef Name="dept_no" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__employees__dept___49C3F6B7">
+    <End Role="dept" Type="Self.dept" Multiplicity="0..1" />
+    <End Role="employees" Type="Self.employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dept">
+        <PropertyRef Name="dept_no" />
+      </Principal>
+      <Dependent Role="employees">
+        <PropertyRef Name="dept_no" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="infiniteDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clients" EntityType="Self.client" />
+    <EntitySet Name="depts" EntityType="Self.dept" />
+    <EntitySet Name="employees" EntityType="Self.employee" />
+    <AssociationSet Name="FK__employees__dept___38996AB5" Association="Self.FK__employees__dept___38996AB5">
+      <End Role="dept" EntitySet="depts" />
+      <End Role="employees" EntitySet="employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__employees__dept___49C3F6B7" Association="Self.FK__employees__dept___49C3F6B7">
+      <End Role="dept" EntitySet="depts" />
+      <End Role="employees" EntitySet="employees" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
