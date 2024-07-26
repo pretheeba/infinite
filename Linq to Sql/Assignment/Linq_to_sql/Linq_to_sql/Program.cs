@@ -14,10 +14,7 @@ namespace EmployeeConsoleApp
         {
             try
             {
-                // Example: Insert some data (this part may be commented out or used as needed)
-                // ExecuteNonQuery("INSERT INTO Employee (FirstName, LastName, Title, DOB, DOJ, City) VALUES ('John', 'Doe', 'Manager', '1985-05-15', '2014-01-01', 'Mumbai')");
-                // ExecuteNonQuery("INSERT INTO Employee (FirstName, LastName, Title, DOB, DOJ, City) VALUES ('Jane', 'Smith', 'Consultant', '1990-07-23', '2016-03-12', 'Chennai')");
-
+               
                 Console.WriteLine("1. Employees who joined before 1/1/2015:");
                 DisplayQueryResults("SELECT * FROM Employee WHERE DOJ < '2015-01-01'");
 
