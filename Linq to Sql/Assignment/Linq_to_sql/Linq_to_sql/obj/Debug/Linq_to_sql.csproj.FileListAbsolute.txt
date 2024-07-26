@@ -1,0 +1,7 @@
+C:\batch24\Linq to Sql\Assignment\Linq_to_sql\Linq_to_sql\bin\Debug\Linq_to_sql.exe.config
+C:\batch24\Linq to Sql\Assignment\Linq_to_sql\Linq_to_sql\bin\Debug\Linq_to_sql.exe
+C:\batch24\Linq to Sql\Assignment\Linq_to_sql\Linq_to_sql\bin\Debug\Linq_to_sql.pdb
+C:\batch24\Linq to Sql\Assignment\Linq_to_sql\Linq_to_sql\obj\Debug\Linq_to_sql.csproj.AssemblyReference.cache
+C:\batch24\Linq to Sql\Assignment\Linq_to_sql\Linq_to_sql\obj\Debug\Linq_to_sql.csproj.CoreCompileInputs.cache
+C:\batch24\Linq to Sql\Assignment\Linq_to_sql\Linq_to_sql\obj\Debug\Linq_to_sql.exe
+C:\batch24\Linq to Sql\Assignment\Linq_to_sql\Linq_to_sql\obj\Debug\Linq_to_sql.pdb
