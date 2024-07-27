@@ -1,16 +1,43 @@
 using System;
-using System.Data.SqlClient;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace EmployeeConsoleApp
+
+namespace LINQ_SQL_Assignment
 {
+    class Employee
+    {
+        public int EmployeeID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Title { get; set; }
+        public DateTime DOB { get; set; }
+        public DateTime DOJ { get; set; }
+        public string City { get; set; }
+    }
     class Program
     {
-        // Updated connection string with the correct database name
-        private static readonly string connectionString = "data source=ICS-LT-98M46D3;initial catalog=EmployeeDB;user id=sa;password=pretheeba;";
-
         static void Main(string[] args)
         {
-            Console.WriteLine("1. Employees who joined before 1/1/2015:");
+            
+            List<Employee> empList = new List<Employee>
+            {
+
+          new Employee { EmployeeID = 1001, FirstName = "pretheeba", LastName = "udhayakumar", Title = "Manager", DOB = new DateTime(1984, 11, 16), DOJ = new DateTime(2011, 6, 8), City = "Mumbai" },
+                new Employee { EmployeeID = 1002, FirstName = "sajana", LastName = "preetha", Title = "AsstManager", DOB = new DateTime(1984, 8, 20), DOJ = new DateTime(2012, 7, 7), City = "Mumbai" },
+                new Employee { EmployeeID = 1003, FirstName = "vaishu", LastName = "raji", Title = "Consultant", DOB = new DateTime(1987, 11, 14), DOJ = new DateTime(2015, 4, 12), City = "Pune" },
+                new Employee { EmployeeID = 1004, FirstName = "kajal", LastName = "shukla", Title = "SE", DOB = new DateTime(1990, 6, 3), DOJ = new DateTime(2016, 2, 2), City = "Pune" },
+                new Employee { EmployeeID = 1005, FirstName = "dharshini", LastName = "udhayakumar", Title = "SE", DOB = new DateTime(1991, 3, 8), DOJ = new DateTime(2016, 2, 2), City = "Mumbai" },
+                new Employee { EmployeeID = 1006, FirstName = "pradeep", LastName = "vijyakumar", Title = "Consultant", DOB = new DateTime(1989, 11, 7), DOJ = new DateTime(2014, 8, 8), City = "Chennai" },
+                new Employee { EmployeeID = 1007, FirstName = "sumathi", LastName = "udhayakumar", Title = "Consultant", DOB = new DateTime(1989, 12, 2), DOJ = new DateTime(2015, 6, 1), City = "Mumbai" },
+                new Employee { EmployeeID = 1008, FirstName = "udhai", LastName = "manoharan", Title = "Associate", DOB = new DateTime(1993, 11, 11), DOJ = new DateTime(2014, 11, 6), City = "Chennai" },
+                new Employee { EmployeeID = 1009, FirstName = "kumar", LastName = "manoharan", Title = "Associate", DOB = new DateTime(1992, 8, 12), DOJ = new DateTime(2014, 12, 3), City = "Chennai" },
+                new Employee { EmployeeID = 1010, FirstName = "hari", LastName = "radha", Title = "Manager", DOB = new DateTime(1991, 4, 12), DOJ = new DateTime(2016, 1, 2), City = "Pune" }
+            };
+
+           Console.WriteLine("1. Employees who joined before 1/1/2015:");
             DisplayQueryResults("SELECT * FROM Employee WHERE DOJ < '2015-01-01'");
 
             Console.WriteLine("\n2. Employees with DOB after 1/1/1990:");
@@ -44,52 +71,7 @@ namespace EmployeeConsoleApp
             DisplayQueryResults("SELECT * FROM Employee WHERE DOB = (SELECT MAX(DOB) FROM Employee)");
 
             Console.ReadLine();
-        }
 
-        private static SqlConnection GetConnection()
-        {
-            SqlConnection con = new SqlConnection(connectionString);
-            con.Open();
-            return con;
-        }
-
-        private static void DisplayQueryResults(string query)
-        {
-            SqlConnection con = GetConnection();
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataReader reader = cmd.ExecuteReader();
-
-            // Display column headers
-            for (int i = 0; i < reader.FieldCount; i++)
-            {
-                Console.Write($"{reader.GetName(i)}\t");
-            }
-            Console.WriteLine();
-
-            // Display rows
-            while (reader.Read())
-            {
-                for (int i = 0; i < reader.FieldCount; i++)
-                {
-                    Console.Write($"{reader[i]}\t");
-                }
-                Console.WriteLine();
-            }
-
-            reader.Close();
-            con.Close();
-        }
-
-        private static void ExecuteScalarQuery(string query)
-        {
-            SqlConnection con = GetConnection();
-            SqlCommand cmd = new SqlCommand(query, con);
-
-            // Execute the query and get a single value using ExecuteScalar
-            object result = cmd.ExecuteScalar();
-            Console.WriteLine(result);
-
-            con.Close();
         }
     }
 }
