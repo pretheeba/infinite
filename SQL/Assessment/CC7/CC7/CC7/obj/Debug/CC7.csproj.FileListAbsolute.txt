@@ -1,0 +1,7 @@
+C:\batch24\SQL\Assessment\CC7\CC7\CC7\bin\Debug\CC7.exe.config
+C:\batch24\SQL\Assessment\CC7\CC7\CC7\bin\Debug\CC7.exe
+C:\batch24\SQL\Assessment\CC7\CC7\CC7\bin\Debug\CC7.pdb
+C:\batch24\SQL\Assessment\CC7\CC7\CC7\obj\Debug\CC7.csproj.AssemblyReference.cache
+C:\batch24\SQL\Assessment\CC7\CC7\CC7\obj\Debug\CC7.csproj.CoreCompileInputs.cache
+C:\batch24\SQL\Assessment\CC7\CC7\CC7\obj\Debug\CC7.exe
+C:\batch24\SQL\Assessment\CC7\CC7\CC7\obj\Debug\CC7.pdb
