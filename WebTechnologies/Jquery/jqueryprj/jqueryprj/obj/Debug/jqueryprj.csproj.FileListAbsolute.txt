@@ -1,0 +1,7 @@
+C:\batch24\WebTechnologies\Jquery\jqueryprj\jqueryprj\bin\Debug\jqueryprj.exe.config
+C:\batch24\WebTechnologies\Jquery\jqueryprj\jqueryprj\bin\Debug\jqueryprj.exe
+C:\batch24\WebTechnologies\Jquery\jqueryprj\jqueryprj\bin\Debug\jqueryprj.pdb
+C:\batch24\WebTechnologies\Jquery\jqueryprj\jqueryprj\obj\Debug\jqueryprj.csproj.AssemblyReference.cache
+C:\batch24\WebTechnologies\Jquery\jqueryprj\jqueryprj\obj\Debug\jqueryprj.csproj.CoreCompileInputs.cache
+C:\batch24\WebTechnologies\Jquery\jqueryprj\jqueryprj\obj\Debug\jqueryprj.exe
+C:\batch24\WebTechnologies\Jquery\jqueryprj\jqueryprj\obj\Debug\jqueryprj.pdb

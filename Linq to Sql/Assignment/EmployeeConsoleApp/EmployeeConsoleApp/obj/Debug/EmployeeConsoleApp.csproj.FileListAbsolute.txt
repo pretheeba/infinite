@@ -1,0 +1,2 @@
+C:\batch24\Linq to Sql\Assignment\EmployeeConsoleApp\EmployeeConsoleApp\obj\Debug\EmployeeConsoleApp.csproj.AssemblyReference.cache
+C:\batch24\Linq to Sql\Assignment\EmployeeConsoleApp\EmployeeConsoleApp\obj\Debug\EmployeeConsoleApp.csproj.CoreCompileInputs.cache
