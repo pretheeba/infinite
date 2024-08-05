@@ -1,0 +1,7 @@
+C:\batch24\miniproject\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.csproj.AssemblyReference.cache
+C:\batch24\miniproject\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.csproj.CoreCompileInputs.cache
+C:\batch24\miniproject\TrainReservationSystem\TrainReservationSystem\bin\Debug\TrainReservationSystem.exe.config
+C:\batch24\miniproject\TrainReservationSystem\TrainReservationSystem\bin\Debug\TrainReservationSystem.exe
+C:\batch24\miniproject\TrainReservationSystem\TrainReservationSystem\bin\Debug\TrainReservationSystem.pdb
+C:\batch24\miniproject\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.exe
+C:\batch24\miniproject\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.pdb
