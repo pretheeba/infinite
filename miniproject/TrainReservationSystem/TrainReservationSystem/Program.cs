@@ -18,6 +18,9 @@ namespace TrainReservationSystem
 
             while (true)
             {
+
+                Console.WriteLine(DateTime.Now);
+                Console.WriteLine(DateTime.UtcNow);
                 Console.WriteLine("If you are a new user, please register. If you have already registered, please log in.");
                 Console.WriteLine("1. Login");
                 Console.WriteLine("2. Register");
@@ -285,7 +288,6 @@ namespace TrainReservationSystem
                             BookingDate = DateTime.Now,
                             JourneyDate = journeyDate
                         };
-
                         bookingService.BookTicket(booking);
                         coachService.UpdateAvailableSeats(coach.CoachId, coach.AvailableSeats - 1);
 

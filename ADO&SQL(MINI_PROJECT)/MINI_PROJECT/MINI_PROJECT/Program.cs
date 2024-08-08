@@ -311,7 +311,7 @@ namespace TrainReservationSystem
                     var bookings = bookingService.GetBookingsByUser(user.UserId);
                     foreach (var booking in bookings)
                     {
-                        Console.WriteLine($"Booking ID: {booking.BookingId}, Train Number: {booking.TrainNumber}, Coach ID: {booking.CoachId}, Passenger Name: {booking.PassengerName}, Age: {booking.PassengerAge}, Booking Date: {booking.BookingDate}, Journey Date: {booking.JourneyDate}");
+                        Console.WriteLine($"Booking ID: {booking.BookingId}, Train Number: {booking.TrainNumber}, Coach ID: {booking.CoachId}, Passenger Name: {booking.PassengerName}, Age: {booking.PassengerAge}, Booking Date: {booking.BookingDate.ToString("yyyy-MM-dd HH:mm:ss")}, Journey Date: {booking.JourneyDate.ToString("yyyy-MM-dd HH:mm:ss")}");
                     }
                 }
                 else if (choice == "6")

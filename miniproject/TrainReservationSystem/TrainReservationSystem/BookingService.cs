@@ -90,7 +90,7 @@ namespace TrainReservationSystem.Services
                         {
                             BookingId = (int)reader["BookingId"],
                             UserId = (int)reader["UserId"],
-                            TrainNumber = (string)reader["TrainNumber"],
+                            TrainNumber = (string)reader["TrainNumber"],    
                             CoachId = (int)reader["CoachId"],
                             PassengerName = (string)reader["PassengerName"],
                             PassengerAge = (int)reader["PassengerAge"],

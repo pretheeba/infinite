@@ -112,8 +112,8 @@ namespace TrainReservationSystem.Services
                 CoachId = reader.GetInt32(reader.GetOrdinal("CoachId")),
                 PassengerName = reader.GetString(reader.GetOrdinal("PassengerName")),
                 PassengerAge = reader.GetInt32(reader.GetOrdinal("PassengerAge")),
-                BookingDate = reader.GetDateTime(reader.GetOrdinal("BookingDate")).ToLocalTime(), // Convert from UTC to local time
-                JourneyDate = reader.GetDateTime(reader.GetOrdinal("JourneyDate")).ToLocalTime() // Convert from UTC to local time
+                BookingDate = reader.GetDateTime(reader.GetOrdinal("BookingDate")),
+                JourneyDate = reader.GetDateTime(reader.GetOrdinal("JourneyDate")) 
             };
         }
 
@@ -150,8 +150,8 @@ namespace TrainReservationSystem.Services
                             CoachId = reader.GetInt32(reader.GetOrdinal("CoachId")),
                             PassengerName = reader.GetString(reader.GetOrdinal("PassengerName")),
                             PassengerAge = reader.GetInt32(reader.GetOrdinal("PassengerAge")),
-                            BookingDate = reader.GetDateTime(reader.GetOrdinal("BookingDate")).ToLocalTime(), // Convert from UTC to local time
-                            JourneyDate = reader.GetDateTime(reader.GetOrdinal("JourneyDate")).ToLocalTime() // Convert from UTC to local time
+                            BookingDate = reader.GetDateTime(reader.GetOrdinal("BookingDate")), 
+                            JourneyDate = reader.GetDateTime(reader.GetOrdinal("JourneyDate")) 
                         });
                     }
                 }
