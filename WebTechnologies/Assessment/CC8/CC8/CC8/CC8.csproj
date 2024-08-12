@@ -51,6 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="first_Question.html" />
+    <Content Include="second_question.html" />
+    <Content Include="third_question.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
