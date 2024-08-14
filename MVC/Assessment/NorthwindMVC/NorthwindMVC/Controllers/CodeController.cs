@@ -6,17 +6,20 @@ public class CodeController : Controller
 {
     private northwindEntities db = new northwindEntities(); 
 
-    // Action Method to return all customers residing in Germany
     public ActionResult CustomersInGermany()
     {
-        var customers = db.Customers.Where(c => c.Country == "Germany").ToList();
-        return View(customers);
+        var customers = from c in db.Customers
+                        where c.Country == "Germany"
+                        select c;
+        return View(customers.ToList());
     }
 
-    // Action Method to return customer details with an OrderId == 10248
     public ActionResult CustomerWithOrder10248()
     {
-        var order = db.Orders.FirstOrDefault(o => o.OrderID == 10248);
+        var order = (from o in db.Orders
+                     where o.OrderID == 10248
+                     select o).FirstOrDefault();
+
         if (order != null)
         {
             var customer = order.Customer;
