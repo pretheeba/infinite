@@ -25,6 +25,6 @@ public class CodeController : Controller
             var customer = order.Customer;
             return View(customer);
         }
-        return HttpNotFound();
+        return View(); 
     }
 }
